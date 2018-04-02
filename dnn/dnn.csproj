@@ -322,9 +322,11 @@
     <Content Include="java\G8\js\win.js" />
     <Content Include="java\G8\js\xxxxglobal.js" />
     <Content Include="java\JCASW\baddieclass.js" />
+    <Content Include="java\JCASW\cellclass.js" />
     <Content Include="java\JCASW\fenceclass.js" />
     <Content Include="java\JCASW\global.js" />
     <Content Include="java\JCASW\goodieclass.js" />
+    <Content Include="java\JCASW\LabelButtonClass.js" />
     <Content Include="java\JCASW\ledgeclass.js" />
     <Content Include="java\JCASW\phaser.js" />
     <Content Include="java\JCASW\playerclass.js" />

@@ -17,6 +17,7 @@
 <script src="../jcasw/baddieclass.js"></script>
 <script src="../jcasw/goodieclass.js"></script>
 <script src="../jcasw/ledgeclass.js"></script>
+<script src="../jcasw/fenceclass.js"></script>
 <script src="../jcasw/utils.js"></script>
 
 <script src="js/aspx.js"></script>    
