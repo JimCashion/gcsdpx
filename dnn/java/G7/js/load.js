@@ -13,11 +13,16 @@ var loadState = {
         game.load.image('ship', '../assets/player.png');
         game.load.spritesheet('kaboom', '../assets/explode.png', 128, 128);
         game.load.image('starfield', '../assets/starfield.png');
-        game.load.image('cachesmall', '../assets/cachesmall.png');    
+        game.load.image('cachesmall', '../assets/cachesmall.png');
+        game.load.image('n4', '../assets/maze.png'); 
 	},
 
-    create: function() {
-		game.state.start('menu');
+	create: function() {
+
+	    var target = document.getElementById("tbcontrol").value;
+	    document.getElementById("tbcontrol").value = 'menu';
+
+	    game.state.start(target);
 	}
-	
+
 }

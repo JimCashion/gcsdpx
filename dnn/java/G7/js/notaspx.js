@@ -54,17 +54,17 @@ function postback(arg) {
 
 function getTitle(){
 
-	var a = "DINONANONONAGON #1";
+	var a = "DinoNanoNonagon #7";
 
 	return a;
 }
 
 function getInstructions(){
 	var a;
-	//if (!IsMobile())
-		a = "Play Dino Invaders";
-	//else
-	//	a = "Touch to the left or right of the player to move and above the player to jump";
+	if (!IsMobile())
+	a = "Click the left or right arrows tomove and SPACE to fire";
+	else
+		a = "Touch to the left or right of the player to move and above the player to fire";
 
 	return a;
 
@@ -72,7 +72,7 @@ function getInstructions(){
 
 function getMission(){
 	
-	var a = "Clear all the invaders to save the world and get the coordinates";
+	var a = "Shoot 10 Spaceships";
 
 	return a;
 

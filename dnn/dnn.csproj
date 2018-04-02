@@ -301,16 +301,19 @@
     <Content Include="java\G6\js\notaspx.js" />
     <Content Include="java\G6\js\play.js" />
     <Content Include="java\G6\js\win.js" />
+    <Content Include="java\G7\index.aspx" />
     <Content Include="java\G7\index.html" />
+    <Content Include="java\G7\js\aspx.js" />
     <Content Include="java\G7\js\boot.js" />
+    <Content Include="java\G7\js\cleared.js" />
     <Content Include="java\G7\js\game.js" />
     <Content Include="java\G7\js\global.js" />
     <Content Include="java\G7\js\load.js" />
+    <Content Include="java\G7\js\lose.js" />
     <Content Include="java\G7\js\menu.js" />
     <Content Include="java\G7\js\notaspx.js" />
     <Content Include="java\G7\js\play.js" />
-    <Content Include="java\G7\js\xlose.js" />
-    <Content Include="java\G7\js\xwin.js" />
+    <Content Include="java\G7\js\win.js" />
     <Content Include="java\G8\index.aspx" />
     <Content Include="java\G8\index.html" />
     <Content Include="java\G8\js\aspx.js" />
@@ -376,6 +379,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="java\G6\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="java\G7\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="java\G7\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="java\G8\index.aspx.cs">
