@@ -13,9 +13,11 @@ function postback(arg) {
        __doPostBack('bpostback', arg);
 }
 
-function postback(arg) {
+function getTitle() {
 
-    game.state.start(arg);
+    var a = "DinoNanoNonagon #5";
+
+    return a;
 }
 
 
@@ -38,4 +40,6 @@ function getMission() {
     return a;
 
 }
+
+
 
