@@ -49,8 +49,13 @@ var play1State = {
 
         title = game.add.text(0, 0, 'Enter the Nine Letters You Collected\n(in any order)', styletitle);
         title.setTextBounds(0,5,800,90);
-      
-        t = game.add.text(0, 0, '', stylehblack);
+        
+        //  delete these
+   //   if(document.getElementById("tbdata").value == "")
+    //  document.getElementById("tbdata").value = "IGUANOD";
+        
+     
+        t = game.add.text(0, 0, document.getElementById("tbdata").value, stylehblack);
         t.setTextBounds(0,100,800,90);
 
         error = game.add.text(0, 0, 'Sorry that is worong, Have another go', stylehred);
@@ -95,6 +100,16 @@ var play1State = {
         this.addbutton(400,320,  "B");
         this.addbutton(460,320,  "N");
         this.addbutton(520,320,  "M"); 
+        
+        if(document.getElementById("tbprize").value == "good")
+        {
+            this.checkok();
+        }
+        else
+        if(document.getElementById("tbprize").value == "bad")
+        {
+            this.checkbad();
+        }
     },
 
     addbutton: function(x,y,letter)
@@ -111,6 +126,7 @@ var play1State = {
 
     up: function(button) {
       
+      if(button != null)
         t.text += button.label.text;
 
         if(t.text.length == 9)
@@ -119,7 +135,22 @@ var play1State = {
             // is the checksum right?
             if(this.calcchecksum() != 676)
             {
-                error.visible = true;
+                this.checkbad();
+            }
+            else
+            {
+     
+                // checksum OK, now do a postback for definitive check
+                postback("play2", t.text);
+               
+                
+            }
+        }
+    },
+    
+    checkbad: function()
+    {
+        error.visible = true;
                 dialoginstructions.visible = true;
                         
                 game.input.onTap.addOnce(function () {     
@@ -129,28 +160,21 @@ var play1State = {
                     dialoginstructions.visible = false;
 
                 });
-            }
-            else
-            {
-            
-                // checksum OK, now do a postback for definitive check
-                
-                
+    },
+    
+    checkok: function()
+    {
+    
                 error.text = "Well done, Now for Part 2"
                 error.visible = true;
                 dialoginstructions.visible = true;
                         
                 game.input.onTap.addOnce(function () {     
                     
-                    t.text = '';
-                    error.visible = false;
-                    dialoginstructions.visible = false;
-                    postback("play2", t.text);
+                postback("sort", t.text);
 
                 });
-               
-            }
-        }
+              
     },
     
     calcchecksum: function()

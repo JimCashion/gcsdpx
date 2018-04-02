@@ -32,6 +32,15 @@ namespace dnn.java.Bonus {
         protected global::System.Web.UI.WebControls.TextBox tbprize;
         
         /// <summary>
+        /// tbdata control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbdata;
+        
+        /// <summary>
         /// tbcontrol control.
         /// </summary>
         /// <remarks>

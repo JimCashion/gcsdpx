@@ -49,13 +49,13 @@ var playState = {
 
 	        if (correct==9)
 	        {
-	        	game.state.start('win');
+	        	postback('win','');
 
 	        }
 	        else
 	        {
 	        	losetext = 'you got ' + correct + ' correct.. Try again';
-	        	game.state.start('lose');
+	        	postback('lose','');
 	        }
 	    }
     },

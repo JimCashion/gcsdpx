@@ -36,7 +36,7 @@ var play2State = {
                 }
             }
         }
-       
+
         if (la[0].letter +
             la[1].letter +
             la[2].letter +
@@ -142,8 +142,8 @@ var play2State = {
             dialoginstructions.visible = false;
             lettersdemo.visible = false;
 
+            otext = document.getElementById("tbdata").value; ;
             bonustext = otext;
-
             bonustext = play2State.randonisetext(bonustext);
 
             for (var i = 0; i < bonustext.length; i++) {

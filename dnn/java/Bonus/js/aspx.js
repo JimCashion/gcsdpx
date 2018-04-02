@@ -12,8 +12,8 @@ function postback(arg, data) {
     // assume correct as the checksum will be correct.
     //  will perform an exact check when in ASPX mode
 
-    bonustext = data;
-    __doPostBack('bpostback', arg);
+    //bonustext = data;
+    __doPostBack('bpostback', arg + "," + data);
 }
 function getSecretCode(){
 
@@ -31,22 +31,18 @@ function getTitle() {
 
 function getInstructions() {
     var a;
-    if (!IsMobile())
-        a = "Click on a picture fragement to move it into the space until the picture is re-assembled";
-    else
-        a = "Touch on a picture fragement to move it into the space until the picture is re-assembled";
+
+    a = "This is smiple to play and should be just as easy using a touch screen as a keyboard";
 
     return a;
 
 }
-
-
 
 function getMission() {
-    var a;
 
-    a = "Re-assemble the picture to reveal an awesome Dinosaur picture and get the coordinates for the cache";
-
+    var a = "This is in three simple stages, complete each stage to progress to the next.";
+    a += "\nOnce the last stage is completed you will be given the coordinates to the bonus cache.";
     return a;
 
 }
+
