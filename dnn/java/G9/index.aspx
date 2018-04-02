@@ -11,15 +11,19 @@
 <title>DinoNanoNonagon #9</title>
 	
   
+  
 <script src="../jcasw/phaser.js"></script>
- 
+
+<script src="../jcasw/cellclass.js"></script>
 <script src="../jcasw/playerclass.js"></script>
 <script src="../jcasw/baddieclass.js"></script>
 <script src="../jcasw/goodieclass.js"></script>
 <script src="../jcasw/ledgeclass.js"></script>
 <script src="../jcasw/utils.js"></script>
 
-<script src="js/aspx.js"></script>    
+<script src="js/maze.js"></script>
+
+<script src="js/notaspx.js"></script>    
 
 <script src="js/boot.js"></script>
     
