@@ -56,7 +56,7 @@ dino_proximity = 100;
 dino_minspeed = 5;
 playerspeed = 150;
 bounceperiod = 1;
-baddiecount = 5;
+baddiecount = 30;
 velocitydampingfator = 0.5;
 
 

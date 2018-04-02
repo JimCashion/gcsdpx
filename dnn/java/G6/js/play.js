@@ -34,14 +34,14 @@ var playState = {
         {
             playState.movetile(canmove[0], false);
 
-            if (this.checkwin())
+            //if (this.checkwin())
             {
                 playState.movetile({tile: original[gridsize * gridsize - 1].tile, direction: ''}, false);
 
                 //  so we won :o)
                 
                
-               game.state.start('win');
+               postback('win');
         
                
             }
