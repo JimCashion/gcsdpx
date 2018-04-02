@@ -311,7 +311,9 @@
     <Content Include="java\G7\js\play.js" />
     <Content Include="java\G7\js\xlose.js" />
     <Content Include="java\G7\js\xwin.js" />
+    <Content Include="java\G8\index.aspx" />
     <Content Include="java\G8\index.html" />
+    <Content Include="java\G8\js\aspx.js" />
     <Content Include="java\G8\js\boot.js" />
     <Content Include="java\G8\js\game.js" />
     <Content Include="java\G8\js\load.js" />
@@ -374,6 +376,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="java\G6\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="java\G8\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="java\G8\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

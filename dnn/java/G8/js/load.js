@@ -10,7 +10,8 @@ var loadState = {
         game.load.image('star', '../assets/star.png');
         game.load.image('win', '../assets/clickforcoordinates.png');
         game.load.image('cachesmall', '../assets/cachesmall.png');
-       
+        game.load.image('n4', '../assets/maze.png');
+        
 
 		var loadingLabel = game.add.text(80, 150, 'loading...',
             { font: '30px Courier', fill: '#ffffff' });
@@ -27,7 +28,11 @@ var loadState = {
     },
 
     create: function() {
-		game.state.start('menu');
-	}
-	
+
+        var target = document.getElementById("tbcontrol").value;
+        document.getElementById("tbcontrol").value = 'menu';
+
+        game.state.start(target);
+    }
+
 }

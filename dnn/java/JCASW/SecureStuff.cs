@@ -183,6 +183,54 @@ namespace dnn
                     a += c5 + tab;
                     a += c9 + tab;
                     break;
+                case "G7":
+                    // N51 39.xxx W003 47.xxx
+                    a += tab;
+                    a += c5 + tab;
+                    a += c1 + tab;
+                    a += space;
+                    a += c3 + tab;
+                    a += c9 + tab;
+                    a += period + tab;
+                    a += c9 + tab;
+                    a += c0 + tab;
+                    a += c4 + tab;
+                    a += newline;
+                    a += c0 + tab;
+                    a += c0 + tab;
+                    a += c3 + tab;
+                    a += space;
+                    a += c4 + tab;
+                    a += c7 + tab;
+                    a += period + tab;
+                    a += c1 + tab;
+                    a += c5 + tab;
+                    a += c9 + tab;
+                    break;
+                case "G8":
+                    // N51 39.xxx W003 47.xxx
+                    a += tab;
+                    a += c5 + tab;
+                    a += c1 + tab;
+                    a += space;
+                    a += c3 + tab;
+                    a += c9 + tab;
+                    a += period + tab;
+                    a += c9 + tab;
+                    a += c0 + tab;
+                    a += c4 + tab;
+                    a += newline;
+                    a += c0 + tab;
+                    a += c0 + tab;
+                    a += c3 + tab;
+                    a += space;
+                    a += c4 + tab;
+                    a += c7 + tab;
+                    a += period + tab;
+                    a += c1 + tab;
+                    a += c5 + tab;
+                    a += c9 + tab;
+                    break;
             }
 
             return a;
