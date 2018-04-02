@@ -1,6 +1,8 @@
-﻿<!doctype html> 
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="dnn.java.G3.index" %>
 
-<html lang="en"> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
 
 <head> 
 
@@ -17,7 +19,7 @@
 <script src="../jcasw/ledgeclass.js"></script>
 <script src="../jcasw/utils.js"></script>
 
-<script src="js/notaspx.js"></script>    
+<script src="js/aspx.js"></script>    
 
 <script src="js/boot.js"></script>
     
@@ -39,17 +41,20 @@
 
 
 <body>
-<form>
-<input type="text" name="tbcontrol" id="tbcontrol" value="menu" hidden="true">
-
+<form  id="form1" runat="server">   
+        <asp:TextBox ID="tbprize" runat="server" Width="683px" hidden="true">nice try!! ;o)</asp:TextBox>
+        <asp:TextBox ID="tbcontrol" runat="server" Height="22px" hidden="true">menu</asp:TextBox>
 </form>
+ <div id="gameDiv">
+    
+    </div>
 
 
-<div id="gameDiv">
 
-	
+
 </div>
 
 </body>
 
 </html>
+

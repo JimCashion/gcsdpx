@@ -257,7 +257,9 @@
     <Content Include="java\G2\js\notaspx.js" />
     <Content Include="java\G2\js\play.js" />
     <Content Include="java\G2\js\win.js" />
+    <Content Include="java\G3\index.aspx" />
     <Content Include="java\G3\index.html" />
+    <Content Include="java\G3\js\aspx.js" />
     <Content Include="java\G3\js\boot.js" />
     <Content Include="java\G3\js\game.js" />
     <Content Include="java\G3\js\load.js" />
@@ -266,7 +268,6 @@
     <Content Include="java\G3\js\notaspx.js" />
     <Content Include="java\G3\js\play.js" />
     <Content Include="java\G3\js\win.js" />
-    <Content Include="java\G3\js\xxxxglobal.js" />
     <Content Include="java\G4\index.html" />
     <Content Include="java\G4\js\boot.js" />
     <Content Include="java\G4\js\game.js" />
@@ -340,6 +341,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="java\G2\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="java\G3\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="java\G3\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

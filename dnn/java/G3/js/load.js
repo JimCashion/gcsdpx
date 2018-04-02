@@ -23,8 +23,11 @@ var loadState = {
         LoadBackgroundDinos();
 	},
 
-    create: function() {
-		game.state.start('menu');
-	}
-	
+     create: function() {
+
+        var target = document.getElementById("tbcontrol").value;
+        document.getElementById("tbcontrol").value = 'menu';
+
+        game.state.start(target);
+    }
 }

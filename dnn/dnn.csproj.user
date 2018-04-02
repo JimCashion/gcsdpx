@@ -3,7 +3,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <StartPageUrl>java/G2/index.aspx</StartPageUrl>
+          <StartPageUrl>java/G3/index.aspx</StartPageUrl>
           <StartAction>SpecificPage</StartAction>
           <AspNetDebugging>True</AspNetDebugging>
           <NativeDebugging>False</NativeDebugging>
@@ -11,7 +11,7 @@
           <PublishCopyOption>ProjectFiles</PublishCopyOption>
           <PublishTargetLocation>c:\jim\pubdnn\</PublishTargetLocation>
           <PublishDeleteAllFiles>True</PublishDeleteAllFiles>
-          <PublishCopyAppData>True</PublishCopyAppData>
+          <PublishCopyAppData>False</PublishCopyAppData>
           <ExternalProgram>
           </ExternalProgram>
           <StartExternalURL>
