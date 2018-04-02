@@ -326,6 +326,18 @@
     <Content Include="java\G8\js\play.js" />
     <Content Include="java\G8\js\win.js" />
     <Content Include="java\G8\js\xxxxglobal.js" />
+    <Content Include="java\G9\index.aspx" />
+    <Content Include="java\G9\index.html" />
+    <Content Include="java\G9\js\aspx.js" />
+    <Content Include="java\G9\js\boot.js" />
+    <Content Include="java\G9\js\game.js" />
+    <Content Include="java\G9\js\load.js" />
+    <Content Include="java\G9\js\lose.js" />
+    <Content Include="java\G9\js\maze.js" />
+    <Content Include="java\G9\js\menu.js" />
+    <Content Include="java\G9\js\notaspx.js" />
+    <Content Include="java\G9\js\play.js" />
+    <Content Include="java\G9\js\win.js" />
     <Content Include="java\JCASW\baddieclass.js" />
     <Content Include="java\JCASW\cellclass.js" />
     <Content Include="java\JCASW\fenceclass.js" />
@@ -393,6 +405,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="java\G8\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="java\G9\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="java\G9\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

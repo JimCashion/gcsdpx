@@ -201,7 +201,7 @@ var playState = {
         scoreText.text = scoreString + score;
         shipscore += 1;
 
-        if (shipscore == 2) {
+        if (shipscore == 10) {
             nextgamestate = 'win';
             this.restart();
 

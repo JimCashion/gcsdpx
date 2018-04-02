@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="dnn.java.G9.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="dnn.java.G1.index" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -8,7 +8,7 @@
 
 <meta charset="UTF-8" />
 	
-<title>DinoNanoNonagon #9</title>
+<title>DinoNanoNonagon #1</title>
 	
   
 <script src="../jcasw/phaser.js"></script>
@@ -41,14 +41,13 @@
 
 
 <body>
-<form  id="form1" runat="server">   
+	    <form id="form1" runat="server">
         <asp:TextBox ID="tbprize" runat="server" Width="683px" hidden="true">nice try!! ;o)</asp:TextBox>
         <asp:TextBox ID="tbcontrol" runat="server" Height="22px" hidden="true">menu</asp:TextBox>
-</form>
  <div id="gameDiv">
     
     </div>
-
+    </form>
 
 
 

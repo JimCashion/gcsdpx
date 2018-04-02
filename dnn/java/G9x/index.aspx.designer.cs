@@ -8,13 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace dnn.java.G9
-{
-
-
-    public partial class index
-    {
-
+namespace dnn.java.G1 {
+    
+    
+    public partial class index {
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -23,7 +21,7 @@ namespace dnn.java.G9
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
         /// tbprize control.
         /// </summary>
@@ -32,7 +30,7 @@ namespace dnn.java.G9
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbprize;
-
+        
         /// <summary>
         /// tbcontrol control.
         /// </summary>

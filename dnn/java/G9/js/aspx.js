@@ -16,33 +16,33 @@ function getSecretCode(){
 }
 
 function postback(arg) {
-   
-       __doPostBack('bposaaatback', arg);
+    game.world.setBounds(0, 0, 800, 600); 
+       __doPostBack('bpostback', arg);
 }
 
 function getTitle(){
 
-	var a = "DinoNanoNonagon #1";
+	var a = "DinoNanoNonagon #9";
 
 	return a;
 }
 
-function getInstructions(){
-	var a;
-	if (!IsMobile())
-		a = "Use the Arrow keys on your keyboard to move left or right and the up arrow to jump";
-	else
-		a = "Touch to the left or right of the player to move and above the player to jump";
+function getInstructions() {
+    var a;
+    if (!IsMobile())
+        a = "Use the arrow keys to move around the maze and collect the caches before the dinos";
+    else
+        a = "Touch to the left, right, above or below the player to move around the maze and collect the caches before the dinos";
 
-	return a;
+    return a;
 
 }
 
-function getMission(){
-	
-	var a = "Collect 200 nano caches and avoid the dinosaurs.  Be warned, some are just nasty and will push you around, others will simply kill you!!";
+function getMission() {
 
-	return a;
+    var a = "Collect 20 of each cache type or 200 caches in total before one of the dinos does!";
+
+    return a;
 
 }
 
