@@ -10,7 +10,7 @@ var menuState = {
 		        boundsAlignV: "top", 
 		        wordWrap: true, wordWrapWidth: 780 };
 
-		stylesm = { font: "20px Arial", fill: "#fff", 
+		stylesm = { font: "18px Arial", fill: "#fff", 
 		        align: "center", 
 		        boundsAlignH: "center", 
 		        boundsAlignV: "top", 

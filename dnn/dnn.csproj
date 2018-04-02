@@ -225,16 +225,20 @@
     <Content Include="java\assets\steg_angry.png" />
     <Content Include="java\assets\steg_friendly.png" />
     <Content Include="java\assets\vborder.png" />
+    <Content Include="java\Bonus\index.aspx" />
     <Content Include="java\Bonus\index.html" />
+    <Content Include="java\Bonus\js\aspx.js" />
     <Content Include="java\Bonus\js\boot.js" />
     <Content Include="java\Bonus\js\game.js" />
     <Content Include="java\Bonus\js\load.js" />
     <Content Include="java\Bonus\js\lose.js" />
     <Content Include="java\Bonus\js\menu.js" />
+    <Content Include="java\Bonus\js\menu1.js" />
     <Content Include="java\Bonus\js\notaspx.js" />
     <Content Include="java\Bonus\js\play.js" />
+    <Content Include="java\Bonus\js\play1.js" />
+    <Content Include="java\Bonus\js\play2.js" />
     <Content Include="java\Bonus\js\win.js" />
-    <Content Include="java\Bonus\js\xxxxglobal.js" />
     <Content Include="java\G1\index.aspx" />
     <Content Include="java\G1\index.html" />
     <Content Include="java\G1\js\boot.js" />
@@ -351,6 +355,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="java\Bonus\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="java\Bonus\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="java\G1\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

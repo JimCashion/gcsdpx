@@ -712,7 +712,6 @@ var playState = {
     },
 
     printdebug: function(t) {
-
     	//document.getElementById('debugarea').innerHTML = t;
     },
 

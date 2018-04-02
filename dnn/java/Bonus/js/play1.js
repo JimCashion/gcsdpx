@@ -67,34 +67,34 @@ var play1State = {
         buttons.position.y = 100;
         // adding a custom label button
 
-        this.addbutton(100,200,  "Q",); 
-        this.addbutton(160,200,  "W",); 
-        this.addbutton(220,200,  "E",);
-        this.addbutton(280,200,  "R",);
-        this.addbutton(340,200,  "T",);
-        this.addbutton(400,200,  "Y",);
-        this.addbutton(460,200,  "U",);
-        this.addbutton(520,200,  "I",);
-        this.addbutton(580,200,  "O",);
-        this.addbutton(640,200,  "P",);
+        this.addbutton(100,200,  "Q"); 
+        this.addbutton(160,200,  "W"); 
+        this.addbutton(220,200,  "E");
+        this.addbutton(280,200,  "R");
+        this.addbutton(340,200,  "T");
+        this.addbutton(400,200,  "Y");
+        this.addbutton(460,200,  "U");
+        this.addbutton(520,200,  "I");
+        this.addbutton(580,200,  "O");
+        this.addbutton(640,200,  "P");
 
-        this.addbutton(125,260,  "A",);
-        this.addbutton(185,260,  "S",);
-        this.addbutton(245,260,  "D",);
-        this.addbutton(305,260,  "F",);
-        this.addbutton(365,260,  "G",);
-        this.addbutton(425,260,  "H",);
-        this.addbutton(485,260,  "J",);
-        this.addbutton(545,260,  "K",);
-        this.addbutton(605,260,  "L",);
+        this.addbutton(125,260,  "A");
+        this.addbutton(185,260,  "S");
+        this.addbutton(245,260,  "D");
+        this.addbutton(305,260,  "F");
+        this.addbutton(365,260,  "G");
+        this.addbutton(425,260,  "H");
+        this.addbutton(485,260,  "J");
+        this.addbutton(545,260,  "K");
+        this.addbutton(605,260,  "L");
 
-        this.addbutton(160,320,  "Z",);
-        this.addbutton(220,320,  "X",);
-        this.addbutton(280,320,  "C",);
-        this.addbutton(340,320,  "V",);
-        this.addbutton(400,320,  "B",);
-        this.addbutton(460,320,  "N",);
-        this.addbutton(520,320,  "M",); 
+        this.addbutton(160,320,  "Z");
+        this.addbutton(220,320,  "X");
+        this.addbutton(280,320,  "C");
+        this.addbutton(340,320,  "V");
+        this.addbutton(400,320,  "B");
+        this.addbutton(460,320,  "N");
+        this.addbutton(520,320,  "M"); 
     },
 
     addbutton: function(x,y,letter)
@@ -132,6 +132,10 @@ var play1State = {
             }
             else
             {
+            
+                // checksum OK, now do a postback for definitive check
+                
+                
                 error.text = "Well done, Now for Part 2"
                 error.visible = true;
                 dialoginstructions.visible = true;

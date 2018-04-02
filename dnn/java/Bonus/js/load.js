@@ -27,12 +27,17 @@ var loadState = {
             game.load.image('blank7', '../assets/cp/blank7.png');
             game.load.image('blank8', '../assets/cp/blank8.png');
             game.load.image('blank9', '../assets/cp/blank9.png');
+            game.load.image('n4', '../assets/maze.png');
             game.load.image('cachesmall', '../assets/cachesmall.png');
 
     },
 
     create: function() {
-		game.state.start('menu');
-	}
-	
+
+        var target = document.getElementById("tbcontrol").value;
+        document.getElementById("tbcontrol").value = 'menu';
+
+        game.state.start(target);
+    }
+
 }

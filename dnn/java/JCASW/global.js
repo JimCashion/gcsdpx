@@ -18,8 +18,8 @@ dinfo = '';
 winningdino = -1;
 bonustext='';
 
-cachetotaltarget = 10;
-cachetypetarget = 1;
+cachetotaltarget = 200;
+cachetypetarget = 20;
 
 pausegame = false;
 playerbaddiedialog = null;
