@@ -30,11 +30,17 @@ var loadState = {
         game.load.spritesheet('steg_friendly', '../assets/steg_friendly.png', 64, 54);  //  friendly steg
         game.load.image('diamond', '../assets/diamond.png');
         game.load.image('logo', '../assets/logo1.png');
+        game.load.image('n4', '../assets/maze.png');
         LoadBackgroundDinos();
 	},
 
-    create: function() {
-		game.state.start('menu');
+
+	create: function() {
+
+	    var target = document.getElementById("tbcontrol").value;
+	    document.getElementById("tbcontrol").value = 'menu';
+
+	    game.state.start(target);
 	}
-	
+
 }
