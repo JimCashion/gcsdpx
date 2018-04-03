@@ -22,7 +22,7 @@ namespace dnn
         public static string newline = "07";
         public static string period = "9321728171";
         public static string c1 = "51357581";
-        public static string c2 = "";
+        public static string c2 = "3122324232228275";
         public static string c3 = "3122324252324275";
         public static string c4 = "33221292328275";
         public static string c5 = "5231423222324275";

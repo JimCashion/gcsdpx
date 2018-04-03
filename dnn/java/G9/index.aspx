@@ -23,7 +23,7 @@
 
 <script src="js/maze.js"></script>
 
-<script src="js/notaspx.js"></script>    
+<script src="js/aspx.js"></script>    
 
 <script src="js/boot.js"></script>
     

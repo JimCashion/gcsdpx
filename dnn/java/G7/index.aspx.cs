@@ -17,7 +17,7 @@ namespace dnn.java.G7
             if (Page.IsPostBack)
             {
                 string arg = Request["__EVENTARGUMENT"];
-                var a = dnn.SecureStuff.GetCoords("G2");
+                var a = dnn.SecureStuff.GetCoords("G7");
 
 
                 if (arg == "win")
