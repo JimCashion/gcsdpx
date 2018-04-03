@@ -83,6 +83,13 @@ namespace dnn.java.Bonus
                        
                             tbprize.Text = ap;
                             break;
+                    case "lose":
+                          
+                            tbcontrol.Text = "play";
+
+
+                            tbdata.Text = "";
+                            break;
                     default:
                         tbcontrol.Text = func;
                         break;

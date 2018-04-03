@@ -7,7 +7,7 @@ var loseState = {
 	},
 
 	restart: function() {
-			game.state.start('menu');
+			postback('play', '');
 	}
 	
 }

@@ -41,22 +41,22 @@ namespace dnn
                 
                 case "G1":
                     // N51 39.004 W003 48.706
-                    a += tab;  // nothing
-                    a += c5 + tab; // 5
-                    a += c1 + tab;  // 1
-                    a += space;  // space
-                    a += c3 + tab;  //  3
-                    a += c9 + tab;  // 9
-                    a += period + tab;  // .
-                    a += c0 + tab;  // 6
-                    a += c0 + tab;  // 3
-                    a += c4 + tab;  // 5
-                    a += newline; //  New line (second digit is irrelevent)
-                    a += c0 + tab;  // 0
-                    a += c0 + tab;  // 0
-                    a += c3 + tab;  // 3
-                    a += space;  // space
-                    a += c4 + tab;  //  4
+                    a += tab;
+                    a += c5 + tab;
+                    a += c1 + tab;
+                    a += space;
+                    a += c3 + tab;
+                    a += c9 + tab;
+                    a += period + tab;
+                    a += c0 + tab;
+                    a += c0 + tab;
+                    a += c4 + tab;
+                    a += newline;
+                    a += c0 + tab;
+                    a += c0 + tab;
+                    a += c3 + tab;
+                    a += space;
+                    a += c4 + tab;
                     a += c8 + tab;
                     a += period + tab;
                     a += c7 + tab;
@@ -120,9 +120,9 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
+                    a += c7 + tab;
                     a += c9 + tab;
-                    a += c0 + tab;
-                    a += c4 + tab;
+                    a += c8 + tab;
                     a += newline;
                     a += c0 + tab;
                     a += c0 + tab;
@@ -131,9 +131,9 @@ namespace dnn
                     a += c4 + tab;
                     a += c7 + tab;
                     a += period + tab;
-                    a += c1 + tab;
-                    a += c5 + tab;
                     a += c9 + tab;
+                    a += c7 + tab;
+                    a += c0 + tab;
                     break;
                 case "G5":
                     // N51 39.xxx W003 47.xxx
@@ -144,20 +144,20 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c9 + tab;
-                    a += c0 + tab;
-                    a += c4 + tab;
+                    a += c7 + tab;
+                    a += c3 + tab;
+                    a += c5 + tab;
                     a += newline;
                     a += c0 + tab;
                     a += c0 + tab;
                     a += c3 + tab;
                     a += space;
                     a += c4 + tab;
-                    a += c7 + tab;
+                    a += c8 + tab;
                     a += period + tab;
-                    a += c1 + tab;
-                    a += c5 + tab;
-                    a += c9 + tab;
+                    a += c0 + tab;
+                    a += c7 + tab;
+                    a += c0 + tab;
                     break;
                 case "G6":
                     // N51 39.xxx W003 47.xxx
@@ -168,20 +168,20 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c9 + tab;
-                    a += c0 + tab;
-                    a += c4 + tab;
+                    a += c8 + tab;
+                    a += c7 + tab;
+                    a += c3 + tab;
                     a += newline;
                     a += c0 + tab;
                     a += c0 + tab;
                     a += c3 + tab;
                     a += space;
                     a += c4 + tab;
-                    a += c7 + tab;
+                    a += c8 + tab;
                     a += period + tab;
                     a += c1 + tab;
-                    a += c5 + tab;
-                    a += c9 + tab;
+                    a += c0 + tab;
+                    a += c8 + tab;
                     break;
                 case "G7":
                     // N51 39.xxx W003 47.xxx
@@ -192,19 +192,19 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c9 + tab;
-                    a += c0 + tab;
                     a += c4 + tab;
+                    a += c0 + tab;
+                    a += c5 + tab;
                     a += newline;
                     a += c0 + tab;
                     a += c0 + tab;
                     a += c3 + tab;
                     a += space;
                     a += c4 + tab;
-                    a += c7 + tab;
+                    a += c8 + tab;
                     a += period + tab;
-                    a += c1 + tab;
-                    a += c5 + tab;
+                    a += c3 + tab;
+                    a += c6 + tab;
                     a += c9 + tab;
                     break;
                 case "G8":
@@ -216,20 +216,20 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c9 + tab;
-                    a += c0 + tab;
-                    a += c4 + tab;
+                    a += c7 + tab;
+                    a += c5 + tab;
+                    a += c6 + tab;
                     a += newline;
                     a += c0 + tab;
                     a += c0 + tab;
                     a += c3 + tab;
                     a += space;
                     a += c4 + tab;
-                    a += c7 + tab;
-                    a += period + tab;
-                    a += c1 + tab;
-                    a += c5 + tab;
                     a += c9 + tab;
+                    a += period + tab;
+                    a += c4 + tab;
+                    a += c2 + tab;
+                    a += c3 + tab;
                     break;
                 case "G9":
                     // N51 39.xxx W003 47.xxx
@@ -240,20 +240,20 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c9 + tab;
-                    a += c0 + tab;
                     a += c4 + tab;
+                    a += c3 + tab;
+                    a += c3 + tab;
                     a += newline;
                     a += c0 + tab;
                     a += c0 + tab;
                     a += c3 + tab;
                     a += space;
                     a += c4 + tab;
-                    a += c7 + tab;
+                    a += c8 + tab;
                     a += period + tab;
-                    a += c1 + tab;
+                    a += c2 + tab;
+                    a += c8 + tab;
                     a += c5 + tab;
-                    a += c9 + tab;
                     break;
                 case "Bonus":
                     // N51 39.xxx W003 47.xxx
@@ -264,7 +264,7 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c9 + tab;
+                    a += c4 + tab;
                     a += c0 + tab;
                     a += c4 + tab;
                     a += newline;
@@ -273,11 +273,11 @@ namespace dnn
                     a += c3 + tab;
                     a += space;
                     a += c4 + tab;
-                    a += c7 + tab;
+                    a += c8 + tab;
                     a += period + tab;
+                    a += c7 + tab;
                     a += c1 + tab;
-                    a += c5 + tab;
-                    a += c9 + tab;
+                    a += c0 + tab;
                     break;
             }
 

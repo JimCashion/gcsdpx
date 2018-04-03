@@ -8,7 +8,7 @@ snf=null;
 pst=null;
 dst=null;
 snt=null;
-
+losetext = '';
 dinonames = ["The Steg", 'Albert', "Drax", "Dippy", 'Pterrie'];
 mazedim=null;
 torightcaches = [];

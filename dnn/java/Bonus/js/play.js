@@ -55,7 +55,7 @@ var playState = {
 	        else
 	        {
 	        	losetext = 'you got ' + correct + ' correct.. Try again';
-	        	postback('lose','');
+	        	postback('lose', losetext);
 	        }
 	    }
     },
