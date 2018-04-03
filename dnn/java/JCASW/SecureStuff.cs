@@ -192,8 +192,8 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c4 + tab;
                     a += c0 + tab;
+                    a += c4 + tab;
                     a += c5 + tab;
                     a += newline;
                     a += c0 + tab;
