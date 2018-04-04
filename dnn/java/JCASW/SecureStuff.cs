@@ -185,6 +185,7 @@ namespace dnn
                     break;
                 case "G7":
                     // N51 39.xxx W003 47.xxx
+
                     a += tab;
                     a += c5 + tab;
                     a += c1 + tab;
@@ -192,8 +193,8 @@ namespace dnn
                     a += c3 + tab;
                     a += c9 + tab;
                     a += period + tab;
-                    a += c0 + tab;
-                    a += c4 + tab;
+                    a += c7 + tab;
+                    a += c9 + tab;
                     a += c5 + tab;
                     a += newline;
                     a += c0 + tab;
@@ -201,11 +202,11 @@ namespace dnn
                     a += c3 + tab;
                     a += space;
                     a += c4 + tab;
-                    a += c8 + tab;
+                    a += c7 + tab;
                     a += period + tab;
-                    a += c3 + tab;
-                    a += c6 + tab;
-                    a += c9 + tab;
+                    a += c5 + tab;
+                    a += c8 + tab;
+                    a += c0 + tab;
                     break;
                 case "G8":
                     // N51 39.xxx W003 47.xxx
