@@ -932,6 +932,7 @@ var playState = {
 			//  the player won!!
 			winningdino = -1;
 			postback('win');
+			game.state.start('win');
 		}
 
 		for (var d = 0; d< baddies.length; d++)
@@ -953,6 +954,7 @@ var playState = {
 				//  the player won!!
 				winningdino = d;
 				postback('lose');
+				game.state.start('lose');
 			}
 		}
 

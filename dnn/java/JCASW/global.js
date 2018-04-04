@@ -19,7 +19,7 @@ winningdino = -1;
 bonustext='';
 
 cachetotaltarget = 200;
-cachetypetarget = 20;
+cachetypetarget = 1;
 
 pausegame = false;
 playerbaddiedialog = null;
