@@ -16,7 +16,7 @@ function getSecretCode(){
 }
 
 function postback(arg) {
-    game.world.setBounds(0, 0, 800, 600);
+    //game.world.setBounds(0, 0, 800, 600);
  
        __doPostBack('bpostback', arg);
 }
